@@ -1,0 +1,188 @@
+/* background image */
+body{
+background-image: url("img_2.jpg");
+background-color: #cccccc;
+background-attachment: fixed;
+background-size: cover;
+margin: 0;
+}
+
+/* changes list block size, aligns text to center */
+li a {
+  display: block;
+  color: #000;
+  padding: 10px 0px;
+  text-decoration: none;
+  text-align: center;
+  overflow: auto;
+}
+
+/* decorates active list, the page that is active will be in a certain color*/
+li a.active {
+  background-color: #f9bbaf;
+  color: white;
+}
+
+/* decorates list that is not active, scrolling through list items that are
+not active will show this color */ 
+li a:hover:not(.active) {
+  background-color: #415977;
+  color: white;
+}
+
+/* style the list */
+ul {
+  list-style-type: none;
+  margin: 0px 0px;
+  margin-top: 0px;
+  padding: 0px 0px;
+  width: 15%;
+  background-color: #fbd9ce;
+  height: 100%;
+  position: fixed;
+  overflow: auto; /* Enable scrolling */
+  font-family: impact;
+  font-size: 35px;
+}
+
+/* decorates class homeIntro/frame */
+.homeIntro{
+	margin-left: 24%;
+	margin-top: 0%;
+	padding: 0px 0px; /* first # moves top/bottom, second # moves left/right */
+	height: auto;
+	border: 1rem;
+	border-style: solid; /* must set border style before putting color */
+	border-color: #618775;
+	box-sizing: border-box;
+	width: 64rem;
+	background-color: white;
+	text-align: center;
+}
+
+.aboutUs{
+	margin-left: 24%;
+	margin-top: 0%;
+	margin-bottom: 0%;
+	padding: 0px 0px;
+	height: auto;
+	border: 1rem;
+	border-style: solid;
+	border-color: #618775;
+	box-sizing: border-box;
+	width: 64rem;
+	background-color: white;
+	text-align: center;
+}
+
+.servicesMenu{
+	margin-left: 24%;
+	margin-top: 0%;
+	padding: 0px 0px;
+	height: auto;
+	border: 1rem;
+	border-style: solid;
+	border-color: #618775;
+	box-sizing: border-box;
+	width: 64rem;
+	background-color: white;
+	text-align: center;	
+}
+
+.contactUs{
+	margin-left: 24%;
+	margin-top: 0%;
+	padding: 0px 0px;
+	height: auto;
+	border: 1rem;
+	border-style: solid;
+	border-color: #618775;
+	box-sizing: border-box;
+	width: 64rem;
+	background-color: white;
+	text-align: center;	
+}
+
+#homeh1{
+	font-family: sacramento;
+	font-weight: bolder;
+	font-size: 70px;
+	margin: 5px;
+}
+
+/* refers to img1 */
+#image1{
+	margin-top: 15px;
+}
+
+#homep1{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 35px;
+	font-family: verdana;
+	font-weight: bold;
+	text-align: center;
+}
+
+#abouth1{
+	font-family: bungee shade;
+	font-size: 55px;
+	margin: 0px;
+}
+
+#aboutp1{
+	margin: 0px 10px;
+	font-family: verdana;
+	font-size: 20px;
+}
+
+#abouth2{
+	margin: 0px;
+	font-family: bungee;
+	font-size: 55px;
+}
+
+#image2{
+	margin-bottom: 15px;
+}
+
+#image3{
+	margin-bottom: 35px;
+}
+
+#contactAdd{
+	font-family: verdana;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#contactPhone{
+	font-family: verdana;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.contactUsIcon{
+	margin-top: 20px;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; 
+  z-index: 99; 
+  border: none; 
+  outline: none; 
+  background-color: #f9bbaf;
+  color: white; 
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px;
+  border-radius: 10px; 
+  font-size: 25px;
+  font-family: impact;
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}

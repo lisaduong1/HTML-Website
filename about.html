@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<!-- link to css -->
+<link rel="stylesheet" href="styles.css">
+<!-- link to font style -->
+<link href='https://fonts.googleapis.com/css?family=Bungee Shade' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Bungee' rel='stylesheet'>
+
+<head>
+	<title>About Us</title>
+<!-- navigation bar -->
+<nav>
+	<ul>
+		<!-- list on nav bar -->
+		<li><a href="home.html">Home</a></li>
+		<li><a class ="active" href="about.html">About Us</a></li>
+		<!-- active page will be a different color on nav bar -->
+		<li><a href="services.html">Services</a></li>
+		<li><a href="contact.html">Contact Us</a></li>
+	</ul>
+</nav>	
+</head>
+
+<body>
+<div class="aboutUs">
+	<h1 id="abouth1">Who Are We?</h1>
+	<p id="aboutp1">Living Lashious is a small business owned and operated by two sisters, Sarah and Salena. We also have three more amazing lash artists, Shawna, Emily and Sabrina, working in our shop. We provide services on lashes, brows, waxing, lash lift/tint and semi-permanent makeup while also offering 1:1 intro classic/volume & styling training courses.</p>
+	<h2 id="abouth2">This is us.</h2>
+	<img src="image2.jpeg" alt="Picture of Sarah&Salena" id="image2" width="600" height="450">
+	<img src="image00.jpeg" alt="Picture of Sarah&Salena" id="image3" width="500" height="667">
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+</div>
+<!-- button commands -->
+<script>
+mybutton = document.getElementById("myBtn");
+
+/* When the user scrolls down 20px, button pops up */
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+/* When the user clicks on the button, scroll to the top of the document */
+function topFunction() {
+  document.documentElement.scrollTop = 0;
+}
+</script>
+</body>
+
+</html>

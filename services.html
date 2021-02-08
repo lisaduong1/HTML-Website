@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<!-- link to css -->
+<link rel="stylesheet" href="styles.css">
+
+<head>
+	<title>Services</title>
+<!-- navigation bar -->	
+<nav>
+	<ul>
+		<!-- list on nav bar -->
+		<li><a href="home.html">Home</a></li>
+		<li><a href="about.html">About Us</a></li>
+		<li><a class="active" href="services.html">Services</a></li>
+		<!-- active page will be a different color on nav bar -->
+		<li><a href="contact.html">Contact Us</a></li>
+	</ul>
+</nav>
+</head>
+
+<body>
+<!-- pictures of service menu -->
+<div class="servicesMenu">
+	<img src="Lashes.jpg" alt="Picture of Menu" id="image4" width="667" height="1000">
+	<img src="LiftWax.jpg" alt="Picture of Menu" id="image5" width="667" height="1000">	
+<!-- button commands -->
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+</div>
+<script>
+mybutton = document.getElementById("myBtn");
+
+/* When the user scrolls down 20px, button pops up */
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+/* When the user clicks on the button, scroll to the top of the document */
+function topFunction() {
+  document.documentElement.scrollTop = 0;
+}
+</script>
+</body>
+
+</html>
